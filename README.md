@@ -1,0 +1,2 @@
+# html-css-aly
+🌧️ RainyDays Website  This project is a school assignment where I’m building a multi-page website for RainyDays, a fictional brand that sells premium waterproof and outdoor jackets.  The website will include multiple pages such as Home, Shop, About, and individual product pages. It’s focused on creating a clean, modern, and user-friendly design that reflects the brand’s adventurous theme — “Pushing the Comfort Zone.”
