@@ -1102,7 +1102,7 @@ input[type="number"] {
 
     /* Cart page */
     .be-member {
-        margin: 20px 50px;
+        margin: 20px;
         padding: 20px 40px;
     }
 
@@ -1274,6 +1274,9 @@ input[type="number"] {
     }
 
     /* Cart page */
+    .be-member {
+        margin: 20px 50px;
+    }
     .order-section {
         flex-direction: row;
         gap: 0;
