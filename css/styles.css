@@ -339,6 +339,24 @@ form p {
 }
 
 /* Shop page */
+.rainydays-shop .products {
+    animation: welcome 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+
+@keyframes welcome {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .shop {
     max-width: 1000px;
     margin: 20px auto;
@@ -398,6 +416,11 @@ form p {
     max-width: 300px;
     background: rgba(0, 0, 0, 0.5);
     margin-left: 67px;
+    transition: all .2s ease-in-out;
+}
+
+.product:hover {
+    transform: translateY(-10px);
 }
 
 .tag {
@@ -563,6 +586,11 @@ select {
     border: none;
     border-radius: 0;
     text-transform: uppercase;
+}
+
+.cta a {
+    color: var(--third-color);
+    text-decoration: none;
 }
 
 .cta:hover {
