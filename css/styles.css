@@ -416,7 +416,6 @@ form p {
     max-width: 300px;
     background: rgba(0, 0, 0, 0.5);
     margin-left: 67px;
-    transition: all .2s ease-in-out;
 }
 
 .product:hover {
@@ -580,7 +579,6 @@ select {
     font-size: 1.1em;
     font-weight: 600;
     background: #1ed61e;
-    color: var(--third-color);
     padding: 15px 20px;
     margin: 10px 0;
     border: none;
@@ -642,8 +640,8 @@ select {
     align-items: center;
     margin: 20px 20px;
     padding: 20px 10px;
-    background: #fff;
-    color: #0A3641;
+    background: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .member-text p {
@@ -1270,6 +1268,14 @@ input[type="number"] {
     .products {
         grid-template-columns: repeat(3, 1fr);
         margin-left: 15px;
+    }
+
+    .product {
+        transition: all .2s ease-in-out;
+    }
+
+    .product:hover {
+        transform: translateY(-10px);
     }
 
     .product img {
