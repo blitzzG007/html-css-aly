@@ -612,7 +612,7 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 8px;
+    margin: 20px 20px;
     padding: 20px 10px;
     background: #fff;
     color: #0A3641;
@@ -658,8 +658,7 @@ select {
 .o-s {
     display: flex;
     flex-direction: column;
-    margin: 0 70px;
-    margin-right: 160px;
+    margin: 0 50px;
 }
 
 .order, 
@@ -677,6 +676,12 @@ select {
     margin: 10px 0;
     margin-top: 5px;
     width: 75px;
+}
+
+.cart-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .order-description h3, .size {
@@ -697,6 +702,11 @@ select {
     display: flex;
     justify-content: flex-end;
     font-weight: 600;
+}
+
+.order-price .cart-price {
+    display: inline-flex;
+    margin-bottom: 10px;
 }
 
 .amount {
@@ -768,8 +778,7 @@ input[type="number"] {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 20px 50px;
-    margin: 0 70px;
+    margin: 0 10px;
 }
 
 .p-d h2 {
@@ -1092,6 +1101,11 @@ input[type="number"] {
     }
 
     /* Cart page */
+    .be-member {
+        margin: 20px 50px;
+        padding: 20px 40px;
+    }
+
     .log-sig a, .trash i {
         font-size: 14px;
     }
@@ -1101,15 +1115,18 @@ input[type="number"] {
     }
 
     .o-s {
-        margin-right: 300px;
+        margin: 0 70px;
+        width: 330px;
     }
 
     .payment-icons img {
         width: 38px;
     }
 
-    .be-member {
-        margin: 20px 60px;
+    .payment-delivery {
+        margin: 0 70px;
+        width: 70%;
+        padding: 20px 50px;
     }
 }
 
@@ -1269,7 +1286,8 @@ input[type="number"] {
     }
 
     .payment-delivery {
-        margin: 0;
+        margin: 10px 0 0 0;
+        width: 100%;
     }
 
     .p-d h2 {
