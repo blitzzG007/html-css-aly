@@ -867,17 +867,17 @@ input[type="number"] {
     margin-top: 10px;
 }
 
-.c-i2, .c-i3 {
+.c-i {
     width: 92px;
     padding: 4px 0;
     padding-left: 5px;
     font-size: 11.5px;
+    margin-top: 3px;
     margin-bottom: 10px;
 }
 
 .c-i1, 
-.c-i2, 
-.c-i3 {
+.c-i {
     border: 1px solid;
     border-radius: 8px;
 }
