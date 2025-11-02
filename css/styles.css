@@ -468,11 +468,8 @@ form p {
 
 
 /* Product page */
-.allpage-p {
-    background: var(--allpage-color) url("../images/Fjord.jpg") center center no-repeat;
+.products-page {
     color: var(--secondary-color);
-    background-size: cover;
-    background-blend-mode: darken;
     padding: 60px 0;
     display: flex;
     justify-content: center;
@@ -626,7 +623,7 @@ select {
 
 
 /* Cart page */
-.allpage-c {
+.allpage-cart {
     background: var(--allpage-color) url("../images/fjord-2.jpg") center center no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -807,7 +804,7 @@ input[type="number"] {
     margin: 0 10px;
 }
 
-.p-d h2 {
+.pay h2 {
     margin-left: 70px;
 }
 
@@ -825,11 +822,11 @@ input[type="number"] {
     border-radius: 10px;
 }
 
-.user-member .u-p {
+.user-member .option {
     font-weight: 590;
 }
 
-.u-p {
+.option {
     font-size: 14.5px;
 }
 
@@ -865,11 +862,11 @@ input[type="number"] {
     color: var(--third-color);
 }
 
-.f-p {
+.family-p {
     font-weight: 600;
 }
 
-.f-p2 {
+.family-p2 {
     font-size: 6px;
     background: var(--primary-color);
     color: var(--secondary-color);
@@ -895,14 +892,14 @@ input[type="number"] {
     gap: 15px;
 }
 
-.c-i1 {
+.card-input-long {
     width: 189px;
     padding: 5px 0;
     padding-left: 5px;
     margin-top: 10px;
 }
 
-.c-i {
+.card-input {
     width: 92px;
     padding: 4px 0;
     padding-left: 5px;
@@ -911,8 +908,8 @@ input[type="number"] {
     margin-bottom: 10px;
 }
 
-.c-i1, 
-.c-i {
+.card-input, 
+.card-input-long {
     border: 1px solid;
     border-radius: 8px;
 }
@@ -1327,7 +1324,7 @@ input[type="number"] {
         width: 100%;
     }
 
-    .p-d h2 {
+    .pay h2 {
         margin: 0;
     }
 
