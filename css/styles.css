@@ -954,6 +954,8 @@ input[type="number"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: welcome 1s ease-in-out forwards;
+    opacity: 0;
 }
 
 .thanks {
